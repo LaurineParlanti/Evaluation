@@ -1,6 +1,21 @@
-@media (max-width: 991px) {
-  
+header {
+  background: rgb(34, 103, 116);
+}
 
+svg.logo {
+  transform: rotate(45deg);
+}
+
+header,
+button.navbar-toggler,
+button.navbar-toggler:focus {
+  box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.57);
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.57);
+}
+
+
+@media (max-width: 991px) {
   #brand-index {
     text-align: center;
     line-height: 1;
@@ -11,7 +26,6 @@
     font-size: 1.3em;
   }
 }
-
 
 @media (min-width: 992px) {
   #brand-index {
