@@ -1,0 +1,23 @@
+@media (max-width: 991px) {
+  #brand-index {
+    text-align: center;
+    line-height: 1;
+  }
+
+  a.nav-link {
+    font-size: 1.5em;
+  }
+}
+
+
+@media (min-width: 992px) {
+  #brand-index {
+    zoom: 0.7;
+    margin-bottom: 7px;
+  }
+
+  svg#logoHeader,
+  a.nav-link {
+    zoom: 1.1;
+  }
+}
