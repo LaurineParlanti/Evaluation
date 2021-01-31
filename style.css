@@ -8,7 +8,8 @@ svg.logo {
 
 header,
 button.navbar-toggler,
-button.navbar-toggler:focus {
+button.navbar-toggler:focus,
+section#engagement {
   box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.57);
     -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.57);
     -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.57);
@@ -23,6 +24,12 @@ div.carousel-caption {
 
 a.header-carousel {
   color: rgb(20, 100, 124);
+  transition: 0.5s;
+}
+
+a.header-carousel:hover {
+  color: black;
+  transition: 0.5s;
 }
 
 
@@ -52,5 +59,11 @@ a.header-carousel {
   svg#logoHeader,
   a.nav-link {
     zoom: 1.1;
+  }
+}
+
+@media (min-width: 1200px) {
+  li.support-us-list {
+    font-size: 1.3em;
   }
 }
