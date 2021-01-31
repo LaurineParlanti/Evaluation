@@ -11,12 +11,17 @@ header,
 button.navbar-toggler,
 button.navbar-toggler:focus,
 section#engagement,
-div.card {
+div.card,
+div#header-article {
   box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.57);
     -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.57);
     -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.57);
 }
 
+a.header-carousel,
+a.moreInfos {
+  color: rgb(20, 100, 124);
+}
 
 /*SECTION ENGAGEMENT*/
 div.carousel-caption {
@@ -25,7 +30,6 @@ div.carousel-caption {
 }
 
 a.header-carousel {
-  color: rgb(20, 100, 124);
   transition: 0.5s;
 }
 
