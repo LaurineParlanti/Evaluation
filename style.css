@@ -15,6 +15,17 @@ button.navbar-toggler:focus {
 }
 
 
+/*SECTION ENGAGEMENT*/
+div.carousel-caption {
+  background-color: rgba(255, 255, 255, 0.712);
+  border-radius: 20px;
+}
+
+a.header-carousel {
+  color: rgb(20, 100, 124);
+}
+
+
 @media (max-width: 991px) {
   #brand-index {
     text-align: center;
