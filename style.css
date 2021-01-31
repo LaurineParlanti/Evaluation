@@ -1,11 +1,14 @@
 @media (max-width: 991px) {
+  
+
   #brand-index {
     text-align: center;
     line-height: 1;
+    margin-bottom: 20px;
   }
 
   a.nav-link {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 }
 
@@ -14,7 +17,12 @@
   #brand-index {
     zoom: 0.7;
     margin-bottom: 7px;
+    text-align: start;
   }
+
+  svg#logoHeader {
+      width: 50px;
+    }
 
   svg#logoHeader,
   a.nav-link {
