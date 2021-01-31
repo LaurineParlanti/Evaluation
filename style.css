@@ -47,6 +47,11 @@ div.card:hover a {
   animation-delay: 0.4s;
 }
 
+/*FOOTER*/
+a.link-footer {
+  color: rgb(20, 100, 124);
+}
+
 @media (max-width: 991px) {
   #brand-index {
     text-align: center;
